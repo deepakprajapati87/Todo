@@ -16,4 +16,64 @@ A beginner-friendly **To-Do List** application built using the **MERN stack** (M
 ---
 
 ## 📁 Project Structure
+mern-todo-app/
+│
+├── backend/
+│ ├── models/
+│ │ └── Task.js
+│ ├── routes/
+│ │ ├── tasks.js
+│ │ └── sendEmail.js
+│ └── server.js
+│
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ │ └── TaskItem.jsx
+│ │ └── TodoApp.jsx
+│ └── App.jsx
+│
+└── README.md
+
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer     | Technology        |
+|-----------|-------------------|
+| Frontend  | React.js          |
+| Backend   | Node.js, Express.js |
+| Database  | MongoDB           |
+| Email     | Nodemailer + Gmail |
+
+---
+
+## 📦 Installation
+
+### 🔧 1. Clone the Repository
+
+bash
+git clone https://github.com/your-username/mern-todo-app.git
+cd mern-todo-app
+
+💻 2. Setup Backend
+
+cd backend
+npm install
+
+🌐 Start the server:
+
+nodemon server.js
+
+
+🌐 3. Setup Frontend
+cd ../frontend
+npm install
+npm start
+
+
+
+
+
 
